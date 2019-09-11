@@ -4,6 +4,7 @@ import AdController from "./ads/controller"
 
 const port = process.env.PORT || 4000
 const app = createKoaServer({
+  cors: true,
   controllers: [
     AdController,
   ],

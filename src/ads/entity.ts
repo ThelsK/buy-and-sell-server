@@ -1,4 +1,3 @@
-
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
 import { BaseEntity } from "typeorm/repository/BaseEntity"
 import { IsString, Length, IsInt, Min, Max, IsUrl, IsEmail } from "class-validator"
